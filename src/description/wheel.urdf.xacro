@@ -10,7 +10,7 @@
 			<visual>
 				<geometry>
 					<!-- <cylinder radius="0.05" length="0.05" /> -->
-                    <mesh filename="description/meshes/Wheel.stl" />
+                    <mesh filename="package://diff_bot/description/meshes/Wheel.stl" />
 				</geometry>
 				<material name="red">
 					<color rgba="1.0 0.0 0.0 1.0" />
@@ -19,7 +19,7 @@
 			<collision>
 				<geometry>
 					<!-- <cylinder radius="0.05" length="0.05" /> -->
-                    <mesh filename="description/meshes/Wheel.stl" />
+                    <mesh filename="package://diff_bot/description/meshes/Wheel.stl" />
 				</geometry>
 			</collision>
 			<inertial>
